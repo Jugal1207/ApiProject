@@ -1,0 +1,312 @@
+url : "https://the-internet.herokuapp.com/"
+heroku : ".heading"
+abTesting : "a[href='/abtest']"
+header1 : "//h3[text()='A/B Test Control']"
+
+addRemoveLink : "a[href='/add_remove_elements/']"
+addButton : "button[onclick='addElement()']"
+deleteButton : "[onclick='deleteElement()']" 
+iframe : "(//div[@class='row'])[2]"
+
+url2: "https://the-internet.herokuapp.com/"
+Siteheader2: "h1"
+header28: "h2"
+dynamicLoadingPage : ".Dynamically Loaded Page Elements"
+abTestingLink: "a[href='/abtest']"
+#addRemoveLink: "a[href='/add_remove_elements/']"
+checkboxesLink: "a[href='/checkboxes']"
+basicAuthLink: "a[href='/basic_auth']"
+challengingDomLink: "a[href='/challenging_dom']"
+contextMenuLink: "a[href='/context_menu']"
+digestAuthLink: "a[href='/digest_auth']"
+#dropdownLink: "a[href='/dropdown']"
+disappearingElementsLink: "a[href='/disappearing_elements']"
+dynamicContentLink: "a[href='/dynamic_content']"
+dynamicControlsLink: "a[href='/dynamic_controls']"
+dynamicLoadingLink: "a[href='/dynamic_loading']"
+
+exitIntentLink: "//a[text()='Exit_Intent']"
+downloadLink:     "a[href='/download']"
+FileUploadLink: "//a[text()='File_Upload']"
+GeolocationLink: "a[href ='/geolocation']"
+horizontalsliderLink: "a[href='/horizontal_slider']"
+hoversLink: "a[href='/hovers']"
+javascriptAlertsLink: "a[href='/javascript_alerts']"
+infiniteScrollLink:    "a[href='/infinite_scroll']"
+loginLink:         "a[href='/login']"
+iFrameLink:           "a[href='/iframe']"
+framesLink:           "a[href='/frames']"
+nestedFramesLink:     "a[href='/nested_frames']"
+dragAndDropLink:     "a[href='/drag_and_drop']"
+
+header01: "//h3[text()='A/B Test Control']"
+#abTestcontrol: "content"
+#addButton: "button[onclick='addElement()']"
+#deleteButton: "button.added-manually"
+
+header2: "//h3[text()='Checkboxes']"          
+checkbox1: "form#checkboxes input[type='checkbox']:nth-of-type(1)"
+checkbox2: "form#checkboxes input[type='checkbox']:nth-of-type(2)"
+
+
+header3: "//h3[text()='Dynamically Loaded Page Elements']"
+example1Link: "a[href='/dynamic_loading/1']"
+example2Link: "a[href='/dynamic_loading/2']"
+startButton1: "#start button"
+loading: "loading"
+finishText: "#finish"
+header4: "//h4[text()='Example 1: Element on page that is hidden']" 
+header5:  "//h4[text()='Example 2: Element rendered after the fact']"
+helloWorld: "//h4[text()='Hello World!']"
+
+
+basicAuthPrompt: "basicAuthPrompt"      
+usernameField: "basicUsernameField"       
+passwordField: "basicPasswordField"       
+signInButton: "basicSignInButton"         
+header6: "//body[normalize-space()='Not authorized']"
+basicAuthSuccess: "//div[@class='example']/p[contains(., 'Congratulations! You must have the proper credentials.')]"
+                        
+message: "div.example p"
+     
+  
+header7: "//h3[text()='Challenging DOM']" 
+blueButton: "a.button"           
+redButton: "a.button.alert"     
+greenButton: "a.button.success"
+
+header8: "//h3[text()='Context Menu']"
+description: "div.example p"  
+contextBox: "#hot-spot"             
+
+  
+    #digestAuthPrompt: "digestAuthPrompt"   
+    #usernameField: "digestUsernameField"   
+    #passwordField: "digestPasswordField"   
+    #signInButton: "digestSignInButton"                   
+
+  
+header9: "//h3[text()='Disappearing Elements']"
+header29: "//h1[text()='Not Found']"              
+home: "//a[text()='Home']"         
+about: "a[href='/about/']"            
+contactUs: "a[href='/contact-us/']"  
+portfolio: "a[href='/portfolio/']" 
+
+header10: "//h3[text()='Dropdown List']"
+dropDownLink: "//a[@href='/dropdown']"
+dropdown: "//select[@id='dropdown']"
+
+option1: "//option[@value='1']"
+attribute1: "value"
+option2: "//option[@value='2']"
+attribute2: "value"
+
+javaScriptAlerts: "//h3[text()='JavaScript Alerts']"
+jsalerts : "a[href='/javascript_alerts']"
+jsalert : "button[onclick='jsAlert()']"
+jsalert2 : "//button[@onclick='jsConfirm()']"
+
+        
+
+  
+
+  
+header11: "//h3[text()='Dynamic Content']"
+icon1: "div#content div.row:nth-of-type(1) .large-2 img"
+icon2: "div#content div.row:nth-of-type(2) .large-2 img"
+icon3: "div#content div.row:nth-of-type(3) .large-2 img"
+imagetitles: "//*[@class='large-10 columns']"
+clickHereLink: "//a[text()='click here']"  
+icon3Text: "(//div[@class='large-10 columns'])[3]"
+
+  
+header12: "//h4[text()='Dynamic Controls']"  
+checkbox: "form#checkbox-example input[type='checkbox']"
+checkboxbutton: "//input[@type='checkbox']"
+removeButton: "form#checkbox-example button"
+addButton1: "form#checkbox-example button"
+checkboxMessage: "form#checkbox-example #message"  
+inputField: "form#input-example input[type='text']"
+enableButton: "form#input-example button"
+disableButton: "form#input-example button"
+inputMessage: "//p[@id='message']"
+enableTextField: "//input[@type='text']"
+disabledmessage: "//p[@id='message']"
+enabledmessage: "//p[@id='message']"
+
+EntryAdLink: "//a[text()='Entry Ad']"
+header13: "//h3[text()='Entry Ad']"              
+modal: "#modal"  
+modalCloseButton: "//div[@class='modal-footer']//p[@id='close']"  
+clickHere: "#restart-ad"
+entryadHeader: "//h3[text()='Entry Ad']"
+closeWindow: "//p[text()='Close']"
+
+exitInternal: "//a[@href='/exit_intent']"  
+header14: "//h3[text()='Exit Intent']"
+modal1: "//div[@id='ouibounce-modal']"
+closeButton: "//div[@class='modal']//p[text()='Close']" 
+
+  
+header15: "//h3[text()='File Download']"
+testFileLink: "//a[@href='download/test (1).txt']"
+
+  
+header16: "//h3[text()='File Uploader']"
+chooseFileButton: "//input[@id='file-upload']"
+uploadButton: "//input[@id='file-submit']"
+  
+header17: "//h3[text()='File Uploaded!']"
+uploadedFileName: "//div[@id='uploaded-files']"
+
+  
+header19: "//h2[text()='Forgot Password']"
+emailField: "//input[@id='email']"
+retrieveButton: "//button[text()='Retrieve password']"
+successMessage: "//h4" 
+
+
+geolocation:
+header22: "//h3[text()='Enable Location']"
+whereAmIButton: "//button[text()='Where am I?']"
+
+  
+header23: "//h3[text()='Horizontal Slider']"
+headerslider: "//h3[normalize-space() = 'Horizontal Slider']"
+sliderInput: "input[type='range']"
+sliderValue: "#range"
+sliderContainer: "//div[@class='sliderContainer']"
+dhf: "//input[@onchange='showValue(this.value)']"
+zero: "//span[text()='0']"
+
+header24: "//h3[text()='Hovers']"
+figure1:      "div.figure:nth-of-type(1)"
+figure2:      "div.figure:nth-of-type(2)"
+figure3:      "div.figure:nth-of-type(3)"
+user1:        "div.figure:nth-of-type(1) .figcaption h5"
+viewProfile1: "(//a[text()='View profile'])[1]"
+user2:        "div.figure:nth-of-type(2) .figcaption h5"
+viewProfile2: "(//a[text()='View profile'])[2]"
+user3:        "div.figure:nth-of-type(3) .figcaption h5"
+viewProfile3: "(//a[text()='View profile'])[3]"
+headerNotFound: "//h1[normalize-space()='Not Found']"
+
+
+#   headerJSAlerts: "//h3[text()='JavaScript Alerts']"
+#   jsAlertButton:   "//button[text()='Click for JS Alert']"
+#   jsConfirmButton: "//button[text()='Click for JS Confirm']"
+#   jsPromptButton:  "//button[text()='Click for JS Prompt']"
+#   resultText:       "#result"
+
+headerInfiniteScroll:  "//h3[text()='Infinite Scroll']"
+scrollParagraph2:      "div.jscroll-added:nth-of-type(2)"
+
+headerLogin:       "//h2[text()='Login Page']"
+usernameField2:     "#username"
+passwordField2:     "#password"
+loginButton1:       "button[type='submit']"
+errorMessage:        "#flash.flash.error"
+successMessage2:      "#flash.flash.success"
+logoutButton:      "a[href='/logout']"
+
+header25:             "//h3[text()='Frames']"
+header26:             "//h3[text()='An iFrame containing the TinyMCE WYSIWYG Editor']"
+header27:             "//h3[text()='Nested Frames']"
+iframe1:               "#mce_0_ifr"
+nestedFrameTop:       "frame[name='frame-top']"
+nestedFrameBottom:    "frame[name='frame-bottom']"
+nestedFrameLeft:      "frame[name='frame-left']"
+nestedFrameMiddle:    "frame[name='frame-middle']"
+nestedFrameRight:     "frame[name='frame-right']"
+nestedFrameMid:       "//frameset[@name='frameset-middle']"
+body:                 "body"
+content:              "#content"
+
+headerDownload:   "//h3[text()='File Downloader']"
+
+  
+headerDragDrop:      "//h3[text()='Drag and Drop']"
+columnA:             "#column-a"
+columnB:             "#column-b"
+
+
+multipleWindows: "//a[@href='/windows']"
+openingnewwindow: "//h3[text()='Opening a new window']"
+clickwindow: "//a[@href='/windows/new']"
+newwindowmessage: "//h3[text()='New Window']"
+windowurl1: "https://the-internet.herokuapp.com/windows"
+windowurl2: "https://the-internet.herokuapp.com/windows/new"
+
+
+
+
+
+swagLabs: "//div[@class='login_logo']"
+url1: "https://www.saucedemo.com/v1/"
+userNameInput: "#user-name"
+userNameOutput: "//input[@value='standard_user']"
+passwordInput: "#password"
+passwordOutput: "//input[@value='secret_sauce']"
+loginButton: "#login-button"
+icon: ".peek"
+products: ".product_label"
+
+secondhighestproduct: "//div[text()='Sauce Labs Backpack']"
+  
+container: "(//div[@id='inventory_container'])[1]"
+productSortDropdown: ".product_sort_container"
+
+sortOptions:
+    nameAtoZ:
+      value: "az"
+      text: "Name (A to Z)"
+    nameZtoA:
+      value: "za"
+      text: "Name (Z to A)"
+    priceLohi:
+      value: "lohi"
+      text: "Price (low to high)"
+    priceHilo:
+      value: "hilo"
+      text: "Price (high to low)"
+
+
+itemName: ".inventory_item_name"
+itemDescription: ".inventory_item_desc"
+itemPrice: ".inventory_item_price"
+
+
+
+addToCartButton: "(//button[@class='btn_primary btn_inventory'])[1]"
+soucelabproduct: "//div[text()='Sauce Labs Onesie']"
+
+soucelabproduct2: "//div[text()='Sauce Labs Fleece Jacket']"
+addToCartButton2: "(//button[@class='btn_primary btn_inventory'])[1]"
+
+shoppingcontainer: "//div[@id='shopping_cart_container']"
+continueShopping: "//a[@class='btn_secondary']"
+
+yourcart: ".subheader"
+
+
+yourinformation: ".subheader"
+checkoutButton: "//a[@class='btn_action checkout_button']"
+
+
+firstName: "#first-name"
+lastName: "#last-name"
+postalCode: "#postal-code"
+continueButton: ".btn_primary.cart_button"
+
+
+checkout: ".subheader"
+finishButton: ".btn_action.cart_button"
+thankyoumessage: "//h2[@class='complete-header']"
+paymentinformation: "(//div[@class='summary_info_label'])[1]"
+
+header: ".subheader"
+
+menu: "//button[text()='Open Menu']"
+menulist: "//nav[@class='bm-item-list']"
+logout1: "//a[text()='Logout']"
