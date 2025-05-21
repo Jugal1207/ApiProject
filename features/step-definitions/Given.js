@@ -18,6 +18,9 @@ Given(/^The page title is "([^"]*)"$/, async (key) => {
         //         element: screen
         //     });
 });
+Given(/^I open the url "([^"]*)"$/, async(url)=>{
+        await browser.url(url)
+})
 
 
 // Given(/^I authenticate with user "([^"]*)" and pass "([^"]*)"$/, async (username, password) => {

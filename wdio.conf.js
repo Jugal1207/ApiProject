@@ -155,7 +155,7 @@ export const config = {
         // <boolean> fail if there are any undefined or pending steps
         strict: false,
         // <string> (expression) only execute the features or scenarios with tags matching the expression
-         tagExpression:  '',
+        //  tagExpression:  '@test',
         // <number> timeout for step definitions
         timeout: 60000,
         // <boolean> Enable this config to treat undefined definitions as warnings.
@@ -239,12 +239,12 @@ export const config = {
      * @param {string}                   uri      path to feature file
      * @param {GherkinDocument.IFeature} feature  Cucumber feature object
      */
-//    beforeFeature: async(uri, feature) => {
+   beforeFeature: async(uri, feature) => {
        
 //    browser.url("https://www.saucedemo.com/v1/index.html")
-//    await browser.maximizeWindow()
+   await browser.maximizeWindow()
         
-//     },
+    },
     /**
      *
      * Runs before a Cucumber Scenario.

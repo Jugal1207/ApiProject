@@ -365,7 +365,7 @@ Then(/^I should see that the "([^"]*)" is selected$/, async (elementName) => {
   
   const selector = locators[elementName];
   const element = await $(selector);
-  await expect(element).toBeSelected();
+  await expect(element).toBeSelected(); 
 });
 
 
